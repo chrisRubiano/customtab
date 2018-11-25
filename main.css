@@ -1,0 +1,45 @@
+body{
+    background-color: #427aa1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.column{
+    grid-column: span 1;
+    border: 2px solid #dedede;
+    border-radius: 10px;
+    margin: 10px;
+    padding-bottom: 200px;
+    background-color: #ebf2fa;
+}
+
+.column:hover{
+    background-color: #fefefe;
+}
+
+.facebook{
+    color: #3b5998;
+}
+
+.youtube{
+    color: #ff0012;
+}
+
+.google{
+    color: #008744;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fab{
+    font-size: 10rem;
+}
