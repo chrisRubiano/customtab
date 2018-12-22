@@ -5,7 +5,7 @@ body{
 
 .container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     max-width: 100%;
     text-align: center;
     font-size: 2rem;
@@ -36,10 +36,14 @@ body{
     color: #008744;
 }
 
+.netflix{
+    color: #b9090b;
+}
+
 a{
     text-decoration: none;
 }
 
-.fab{
+.fab, .fas{
     font-size: 10rem;
 }
